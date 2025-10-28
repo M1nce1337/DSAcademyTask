@@ -59,7 +59,7 @@ public class Employee {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, salary);
+        return Objects.hash(id);
     }
 
     @Override
